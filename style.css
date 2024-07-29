@@ -1,8 +1,15 @@
 @font-face {
-    font-family: 'Cloick';
-    src: url('fonts/Cloick.ttf') format('ttf'),
-    url('fonts/Cloick.ttf') format('ttf');
+    font-family: 'Moderustic';
+    src: url("fonts/Moderustic-Regular.ttf") format('truetype'),
+    url("/fonts/Moderustic-Regular.ttf") format('truetype');
     font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Moderustic';
+    src: url("/fonts/Moderustic-Bold.ttf") format('truetype');
+    font-weight: bold;
     font-style: normal;
 }
 
@@ -13,7 +20,8 @@ body {
 }
 
 .title_text {
-    font-family: 'Cloick', sans-serif;
+    font-family: 'Moderustic', sans-serif;
+    font-weight: bold;
     align-items: center;
     text-align: center;
     margin-top: 2%;
@@ -21,7 +29,7 @@ body {
 }
 
 .main_text {
-    font-family: 'Cloick', sans-serif;
+    font-family: 'Moderustic', sans-serif;
     align-items: center;
     text-align: center;
     margin-top: 2%;
@@ -43,7 +51,7 @@ body {
     animation: pulse 2s infinite;
     /*transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;*/
     border-radius: 10%;
-    font-family: 'Caudex', sans-serif;
+    font-family: 'Moderustic', sans-serif;
     text-align: center;
     margin: 0 auto;
     display: flex;          /* Added for centering */

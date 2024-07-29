@@ -87,7 +87,7 @@ body {
 
 .slide-in {
     opacity: 0;
-    animation: slideIn 1s forwards;
+    animation: slideIn 2s forwards; /* Increased duration to 2 seconds */
 }
 
 .visible {

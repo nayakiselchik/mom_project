@@ -38,8 +38,8 @@ body {
 }
 
 .parent_element {
-    text-align: center; /* This can help if the parent has text alignment issues */
-    height: 25vh;      /* Ensures the parent takes full viewport height */
+    text-align: center;
+    height: 25vh;
     display: flex;
     align-items: center;
 }
@@ -49,14 +49,13 @@ body {
     height: 60px;
     background-color: #D6CCC2;
     animation: pulse 2s infinite;
-    /*transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;*/
     border-radius: 10%;
     font-family: 'Moderustic', sans-serif;
     text-align: center;
     margin: 0 auto;
-    display: flex;          /* Added for centering */
-    justify-content: center; /* Added for centering */
-    align-items: center;    /* Added for centering */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
 }
 
@@ -75,9 +74,22 @@ body {
     }
 }
 
+@keyframes slideIn {
+    0% {
+        transform: translateY(20%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
 
-/*.pop-element:hover {*/
-/*    transform: scale(1.2);*/
-/*    background-color: #D5BDAF;*/
-/*    box-shadow: 0 4px 8px rgba(149, 133, 128, 0.3);*/
-/*}*/
+.slide-in {
+    opacity: 0;
+    animation: slideIn 1s forwards;
+}
+
+.visible {
+    opacity: 1;
+}

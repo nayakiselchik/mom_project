@@ -86,9 +86,9 @@ body {
 }
 
 .slide-in {
-    opacity: 0; /* Ensure elements are initially hidden */
-    transform: translateY(20%); /* Start in the translated state */
-    transition: opacity 1s, transform 1s; /* Ensure a smooth transition */
+    opacity: 0;
+    transform: translateY(20%);
+    transition: opacity 1s, transform 1s;
 }
 
 /* Add delays for each element */

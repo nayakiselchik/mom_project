@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'Moderustic';
     src: url("fonts/Moderustic-Regular.ttf") format('truetype'),
-    url("/fonts/Moderustic-Regular.ttf") format('truetype');
+    url("/public/fonts/Moderustic-Regular.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Moderustic';
-    src: url("/fonts/Moderustic-Bold.ttf") format('truetype');
+    src: url("/public/fonts/Moderustic-Bold.ttf") format('truetype');
     font-weight: bold;
     font-style: normal;
 }
